@@ -5,7 +5,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 local Window = Fluent:CreateWindow({
     --ai skid thì nhớ đổi tên =)
     --táo hub , aniee hub :>
-    Title = "Wave Hub - Pevis",
+    Title = "wave hub - Pevis",
     SubTitle = "Version 1",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
@@ -2323,7 +2323,8 @@ return false
 end
 
 
----Method Wait Mob
+---Method Wa
+	it Mob
 Type11 = 1
 spawn(function()
     while wait(.1) do
