@@ -4373,7 +4373,7 @@ Camera:Stop()
 
 
 
-    local ToggleBringMob = Tabs.Setting:AddToggle("ToggleBringMob", {Title = "Bring Mob", Default = true })
+    local ToggleBringMob = Tabs.Setting:AddToggle("ToggleBringMob", {Title = "Bring Mob", Default = true})
     ToggleBringMob:OnChanged(function(Value)
         _G.BringMob = Value
     end)
@@ -4383,7 +4383,7 @@ Camera:Stop()
         if _G.BringMob then
         pcall(function()
           for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
-          if not string.find(v.Name,"Boss") and v.Name == MonFarm and (v.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 350 then
+          if not string.find(v.Name,"Boss") and v.Name == MonFarm and (v.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 500 then
           if InMyNetWork(v.HumanoidRootPart) then
             if InMyNetWork(v.HumanoidRootPart) then
           v.HumanoidRootPart.CFrame = FarmPos
